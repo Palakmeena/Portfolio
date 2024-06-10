@@ -1,0 +1,412 @@
+/* CSS for Home page */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+
+}
+nav{
+ text-align: left;
+ 
+}
+
+   
+header{
+    background-color:rgba(180, 162, 222, 255);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+/* header .scrolled{
+    background-color: rgba(180, 162, 222, 255);
+    opacity: 0.98;
+} */
+ #HomePage{
+   
+    background-color:rgba(180, 162, 222, 255);
+
+    height: 700px;
+}
+
+
+
+
+
+#myImage {
+    width: 310px;
+    height: 300px;
+
+    border-radius: 50%;
+    position: relative;
+    left: 60%;
+    top: 130px;
+
+}
+
+.intro {
+    position: relative;
+    left: 15%;
+    top: -180px;
+
+
+
+}
+.intro h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.icon {
+    position: relative;
+    left: 219px;
+    top: -155px;
+}
+
+.icon1 {
+    width: 52px;
+    height: 52px;
+    margin: 8px;
+    border-radius: 20px;
+
+}
+
+.mainIcon {
+    width: 87px;
+    height: 76px;
+    padding-top: 16px;
+    padding-left: 16px;
+
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+   
+
+}
+
+nav{
+    position: fixed;
+}
+nav a:hover{
+   
+    background-color:rgb(44, 26, 61) ;
+}
+
+
+
+.home {
+    
+    position: relative;
+    left: 680px;
+    top: -32px;
+    font-family: Quicksand, sans-serif;
+    font-size: 1.5;
+   
+
+}
+
+.home a {
+    color: white;
+  
+}
+
+
+
+
+
+h1 span {
+    color: rgb(44, 26, 61);
+}
+
+h1 span::before {
+    content: "";
+    right: -8px;
+    top:50%;
+    position: absolute;
+    height: 30px;
+    width: 2px;
+    background: rgb(44, 26, 61);
+    /* transform: translate(-45%); */
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+
+}
+
+h1 span.stop-blinking::before {
+    animation: none;
+}
+
+
+/* CSS for About me Page */
+
+#AboutMePage{
+    height: 480px;
+    width: 1200px;
+   
+    position: relative;
+    top: 10px;
+    left: 6%;
+
+}
+
+#AboutMePage .heading{
+   color: rgba(180, 162, 222, 255);
+   font-size: 40px;
+   padding: 12px;
+   position: relative;
+   top: 84px;
+
+}
+#AboutMePage .Discription{
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 84px;
+    left: 12px;
+}
+
+#AboutMePage h1{
+    font-size: 53px;
+    color:  rgb(44, 26, 61);
+    position: relative;
+    left: 450px;
+    margin: 30px;
+    top: 119px;
+
+}
+
+#ResumeButton{
+    height: 60px;
+    width: 300px;
+    position: relative;
+    left: 16%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:whitesmoke ;
+    
+    border-radius: 10px;   
+    background-color:     rgb(44, 26, 61)   ;
+    border-color:  rgb(44, 26, 61);
+      top: -120px;
+}
+
+
+/* CSS for contact page */
+
+#ContactPage {
+    /* margin-top: 63px; */
+    height: 600px;
+    position: relative;
+    top: 233px;
+}
+#ContactPage img {
+    height: 340px;
+    width: 327px;
+    position: relative;
+    left: 114%;
+    top: -800px;
+}
+
+.userlogo {
+    height: 123px;
+    width: 123px;
+}
+
+#ContactPage .Mainheading {
+    font-size: 60px;
+    position: relative;
+    left: 520px;
+    top: 126px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 600;
+    color: rgb(44, 26, 61);
+}
+
+#ContactPage .Subheading{
+    font-size: 30px;
+    color: rgb(44, 26, 61);
+    color:rgba(180, 162, 222, 255) ;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    top: 12px;
+    margin: 0px;
+
+}
+
+#ContactPage .discription{
+    font-size: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.ContactIntro{
+    position: relative;
+    left: 7%;
+    height: 33px;
+    width: 600px;
+    top: 140px;
+}
+
+
+.userName,
+.userEmail {
+    height: 40px;
+    width: 550px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    padding-left: 12px;
+    border-radius: 5px;
+
+    
+}
+
+.MessageBlock{
+height: 10px;
+    width: 350px;
+}
+
+.userMessage {
+    margin-top: 12px;
+    height: 10px;
+    width: 350px;
+    padding-bottom: 112px;
+    padding-right: 201px;
+    padding-top: 12px;
+    padding-left: 12px;
+    border-radius: 5px;
+
+}
+.submitButton{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    width: 150px;
+    height: 34px;
+    margin-top: -25px;
+    margin-left: 418px;
+    border-radius: 5px;
+    background-color: rgba(180, 162, 222, 255);
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    top: -60px;
+   
+
+}
+
+.ContactIntro label{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    margin-top: 12px;
+    font-size: 20px;
+    
+}
+
+.myEmail , .myAddress ,.mySocials{
+    position: relative;
+    left: 834px;
+    top: -234px;
+    color: rgba(180, 162, 222, 255);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.ContactEmail{
+width: 167px;
+height: 100px;
+overflow: auto;
+position: relative;
+top: 23px;
+font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+
+
+/* css for skills page */
+
+/* 
+        body{
+            position: fixed;
+        } */
+         #skills{
+            margin-top: 50rem;
+            
+         }
+        
+        .LogoImg{
+            width: 12px;
+            height: 23px;
+            position: relative;
+            top: 12rem;
+            left: 12rem;
+        }
+        #SkillImg{
+            
+    
+            width: 33rem;
+    height: 29rem;
+    position: relative;
+    top: 5rem;
+    left: 24rem;
+
+        }
+     #html{
+        width: 12rem;
+    height: 12rem;
+    position: relative;
+    top: 12rem;
+    left: 6rem;
+     }
+     #css{
+        width: 12rem;
+    height: 12rem;
+    position: relative;
+    top: 30rem;
+    left: -7rem;
+     }
+     #js{
+        width: 12rem;
+    height: 12rem;
+    position: relative;
+    top: 31rem;
+    left: 36rem;
+    border-radius: 6rem
+     }
+     #spring{
+        width: 12rem;
+    height: 12rem;
+    position: relative;
+    top: 13rem;
+    left: 24rem;
+    border-radius: 12rem;
+     }
+
+     #java{
+        height: 13rem;
+    width: 15rem;
+    position: relative;
+    left: -16rem;
+    top: 0rem;
+  
+    
+     }
+
+
+
+
