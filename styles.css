@@ -23,6 +23,7 @@ header{
     height: 100px;
     width: 100%;
     position: fixed;
+    z-index: 99999;
     top: 0;
 }
 /* header .scrolled{
@@ -33,7 +34,12 @@ header{
    
     background-color:rgba(180, 162, 222, 255);
 
-    height: 700px;
+    /* height: 700px; */
+
+    
+    height: 652px;
+    position: relative;
+    top: 6rem;
 }
 
 
@@ -158,10 +164,11 @@ h1 span.stop-blinking::before {
 #AboutMePage{
     height: 480px;
     width: 1200px;
-   
     position: relative;
-    top: 10px;
+    /* top: 10px; */
+    top: 8px;
     left: 6%;
+    margin-bottom: 10rem;
 
 }
 
@@ -208,20 +215,132 @@ h1 span.stop-blinking::before {
 }
 
 
-/* CSS for contact page */
+
+
+
+/* css for skills page */
+
+/* 
+        body{
+            position: fixed;
+        } */
+         #skills{
+            margin-top: 50rem;
+            
+         }
+        
+        /* .LogoImg{
+            width: 12px;
+            height: 23px;
+            position: relative;
+            top: 12rem;
+            left: 12rem;
+        }
+        #SkillImg{
+            
+    
+            width: 28rem;
+            height: 21rem;
+            position: relative;
+            top: -33rem;
+            left: 22rem;
+
+        } */
+     #html{
+        width: 16rem;
+        height: 16rem;
+        position: relative;
+        top: 2rem;
+        left: 20rem;
+        z-index: 12;
+     }
+     #css{
+        width: 13rem;
+        height: 13rem;
+        position: relative;
+        top: 2rem;
+        left: 35rem;
+        z-index: 22;
+     }
+     #js{
+        width: 19rem;
+        height: 20rem;
+        position: relative;
+        top: 3rem;
+        left: 35rem;
+     }
+     #spring{
+        width: 22rem;
+        height: 21rem;
+        position: relative;
+        top: 13rem;
+        left: -17rem;
+        /* z-index: 13; */
+        /* border-radius: 12rem */
+     }
+
+     #java{
+        height: 17rem;
+        width: 17rem;
+        position: relative;
+        left: -3rem;
+        top: -5rem;
+  
+    
+     }
+
+    
+
+     #reactJs{
+        height: -50rem;
+    width: 20rem;
+    position: relative;
+    top: -15rem;
+    left: 3rem;
+    /* z-index: 2; */
+     }
+
+     #dsa{
+        width: 16rem;
+    height: -4rem;
+    position: relative;
+    top: -4rem;
+    left: 19rem;
+     }
+
+     
+
+     .skillMainHeading{    font-size: 60px;
+    position: relative;
+    left: 575px;
+    top: 126px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 600;
+    color: rgb(44, 26, 61);
+     }
+   
+    
+
+     /* CSS for contact page */
 
 #ContactPage {
     /* margin-top: 63px; */
-    height: 600px;
+    /* height: 600px;
     position: relative;
-    top: 233px;
+    top: 233px; */
+    /* margin-top: 63px;  */
+    height: 45rem;
+    position: relative;
+    top: -4rem;
+    margin-bottom: 18rem;
 }
 #ContactPage img {
     height: 340px;
     width: 327px;
     position: relative;
     left: 114%;
-    top: -800px;
+    top: -900px;
+    
 }
 
 .userlogo {
@@ -317,15 +436,26 @@ height: 10px;
     
 }
 
-.myEmail , .myAddress ,.mySocials{
+.myEmail  {
     position: relative;
-    left: 834px;
-    top: -234px;
+    left: 832px;
+    top: -306px;
     color: rgba(180, 162, 222, 255);
     font-size: 30px;
-    margin: 0;
-    padding: 0;
+    /* margin: 4px; */
+    /* padding: 2px; */
+    margin-bottom: 22px;
 }
+.myAddress{
+position: relative;
+    left: 832px;
+    top: -306px;
+    color: rgba(180, 162, 222, 255);
+    font-size: 30px;
+    /* margin: 4px; */
+    /* padding: 2px; */
+    margin-bottom: 22px;}
+
 .ContactEmail{
 width: 167px;
 height: 100px;
@@ -336,77 +466,35 @@ font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu
 
 }
 
+#MyEmailId{
+    color: rgb(44, 26, 61);
+font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+position: relative;
+top: -21rem;
+left: 52rem;
+font-size: 28px;
+ }
 
-
-/* css for skills page */
-
-/* 
-        body{
-            position: fixed;
-        } */
-         #skills{
-            margin-top: 50rem;
-            
-         }
-        
-        .LogoImg{
-            width: 12px;
-            height: 23px;
-            position: relative;
-            top: 12rem;
-            left: 12rem;
-        }
-        #SkillImg{
-            
-    
-            width: 33rem;
-    height: 29rem;
+ #MyContactNo{
+    color: rgb(44, 26, 61);
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 24px;
     position: relative;
-    top: 5rem;
-    left: 24rem;
+    top: -21rem;
+    left: 52rem;
+    font-weight: 126px;
+ }
 
-        }
-     #html{
-        width: 12rem;
-    height: 12rem;
+ #end{
     position: relative;
-    top: 12rem;
-    left: 6rem;
-     }
-     #css{
-        width: 12rem;
-    height: 12rem;
-    position: relative;
-    top: 30rem;
-    left: -7rem;
-     }
-     #js{
-        width: 12rem;
-    height: 12rem;
-    position: relative;
-    top: 31rem;
-    left: 36rem;
-    border-radius: 6rem
-     }
-     #spring{
-        width: 12rem;
-    height: 12rem;
-    position: relative;
-    top: 13rem;
-    left: 24rem;
-    border-radius: 12rem;
-     }
+    top: -25rem;
+    left: 29rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: rgb(44, 26, 61);
+    font-size: 20px;
 
-     #java{
-        height: 13rem;
-    width: 15rem;
-    position: relative;
-    left: -16rem;
-    top: 0rem;
-  
-    
-     }
+ }
 
 
-
+     
 
